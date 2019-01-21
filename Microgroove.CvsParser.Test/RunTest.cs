@@ -3,12 +3,14 @@ using Xunit;
 
 namespace Microgroove.CvsParser.Test
 {
-    public class UnitTest1
+    public class RunTest
     {
         [Fact]
-        public void Test1()
+        public void Should_Parse_Output_Json()
         {
+            // Arrange
 
+            // 
         }
     }
 }
