@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microgroove.CvsParser.Extensions;
 
 namespace Microgroove.CvsParser.FileParser.Validations
 {
@@ -29,7 +30,7 @@ namespace Microgroove.CvsParser.FileParser.Validations
             }
 
             // First Element Should be F
-            if (headerElements[0] != "\"F\"")
+            if (!headerElements[0].GetRecordType().In('F'))
                 return "HE04 - Header code should be F but " + headerElements[0];
 
             // Second element should be Date format mm/dd/yyyy

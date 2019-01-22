@@ -8,6 +8,7 @@ namespace Microgroove.CvsParser.FileParser.ValueObject
 {
     /// <summary>
     /// Value Object for CVS file
+    /// I wish I have resharper license so that I can move all classes into multiple files
     /// </summary>
     public class JsonOutputValue
     {
@@ -49,6 +50,7 @@ namespace Microgroove.CvsParser.FileParser.ValueObject
         public string Street { get; set; }
         public string Zip { get; set; }
     }
+
     public class Item
     {
         public string Sku { get; set; }

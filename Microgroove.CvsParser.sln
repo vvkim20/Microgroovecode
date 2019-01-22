@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microgroove.CvsParser", "Microgroove.CvsParser\Microgroove.CvsParser.csproj", "{58A26326-E547-425B-BCC6-C1C9C19B73B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microgroove.CvsParser.Test", "Microgroove.CvsParser.Test\Microgroove.CvsParser.Test.csproj", "{E72FE58D-A294-4552-8BF4-14C078FE2637}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microgrove.CvsParser.Integration.Test", "Microgrove.CvsParser.Integration.Test\Microgrove.CvsParser.Integration.Test.csproj", "{8323123E-4DD6-4C1B-9CAA-3B06982DF051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microgroove.CvsParser.Test", "Microgroove.CvsParser.Test\Microgroove.CvsParser.Test.csproj", "{E72FE58D-A294-4552-8BF4-14C078FE2637}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{E72FE58D-A294-4552-8BF4-14C078FE2637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E72FE58D-A294-4552-8BF4-14C078FE2637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E72FE58D-A294-4552-8BF4-14C078FE2637}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8323123E-4DD6-4C1B-9CAA-3B06982DF051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8323123E-4DD6-4C1B-9CAA-3B06982DF051}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8323123E-4DD6-4C1B-9CAA-3B06982DF051}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8323123E-4DD6-4C1B-9CAA-3B06982DF051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

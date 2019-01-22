@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Microgroove.CvsParser": {
+      "commandName": "Project",
+      "commandLineArgs": "TestInput.csv"
+    }
+  }
+}

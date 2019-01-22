@@ -21,4 +21,13 @@
     <ProjectReference Include="..\Microgroove.CvsParser\Microgroove.CvsParser.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="SampleFiles\Output.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SampleFiles\TestInput.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

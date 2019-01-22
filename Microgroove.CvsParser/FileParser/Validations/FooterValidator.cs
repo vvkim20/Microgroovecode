@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Microgroove.CvsParser.Extensions;
 namespace Microgroove.CvsParser.FileParser.Validations
 {
     public class FooterValidator : Validator
@@ -22,8 +22,8 @@ namespace Microgroove.CvsParser.FileParser.Validations
                 return "FE02 - \" is required before and after of string : " + line;
             }
 
-            // First Element Should be F
-            if (footerElements[0] != "\"E\"")
+            // Record Type Should be E
+            if (!footerElements[0].GetRecordType().In('E'))
                 return "FE03 - Footer code should be E but " + footerElements[0];
 
             return string.Empty;
