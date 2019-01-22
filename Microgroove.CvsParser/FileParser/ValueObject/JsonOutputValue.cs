@@ -19,9 +19,9 @@ namespace Microgroove.CvsParser.FileParser.ValueObject
 
     public class Ender
     {
-        public int Process { get; set; }
-        public int Paid { get; set; }
-        public int Created { get; set; }
+        public long Process { get; set; }
+        public long Paid { get; set; }
+        public long Created { get; set; }
     }
 
     public class Order
