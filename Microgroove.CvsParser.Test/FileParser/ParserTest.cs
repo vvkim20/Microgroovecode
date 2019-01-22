@@ -16,7 +16,7 @@ namespace Microgroove.CvsParser.FileParser
         /// 
         /// </summary>
         [Fact]
-        public void Should()
+        public void ShouldParseCsv()
         {
             // Arrange
             var mock = new Mock<IValidator>();
@@ -28,7 +28,7 @@ namespace Microgroove.CvsParser.FileParser
             var result = parser.ReadCvsFile($"{Directory.GetCurrentDirectory()}\\SampleFiles\\TestInput.csv");
 
             // Asserts
-            result.Should().Be("");
+            
         }
 
 

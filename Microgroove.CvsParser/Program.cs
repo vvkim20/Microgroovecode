@@ -10,7 +10,7 @@ namespace Microgroove.CvsParser
     {
         static void Main(string[] args)
         {
-            /// DI setup for console app for webjob
+            /// DI setup for console app for webjob, skip this for now
             /// https://andrewlock.net/using-dependency-injection-in-a-net-core-console-application/
             var parser = new Parser(new HeaderValidator(), new FooterValidator());
             var inputFileName = args[0];
@@ -23,7 +23,6 @@ namespace Microgroove.CvsParser
             {
                 File.WriteAllText(outputFileName, json);
             }
-
         }
     }
 }
